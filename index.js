@@ -10,8 +10,8 @@ function getRandomNumber() {
 const randomNumber1 = getRandomNumber();
 const randomNumber2 = getRandomNumber();
 
-const imageSource1 = `/Dicee Game/images/dice${randomNumber1}.png`;
-const imageSource2 = `/Dicee Game/images/dice${randomNumber2}.png`;
+const imageSource1 = `/images/dice${randomNumber1}.png`;
+const imageSource2 = `/images/dice${randomNumber2}.png`;
 
 document.querySelectorAll('img')[0].setAttribute('src', imageSource1);
 document.querySelectorAll('img')[1].setAttribute('src', imageSource2);
